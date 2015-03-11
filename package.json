@@ -1,0 +1,33 @@
+{
+  "name": "middle-ho",
+  "version": "0.1.0",
+  "description": "The extra sugar between two webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "keywords": [
+    "request",
+    "hooker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:renancouto/middle-ho.git"
+  },
+  "author": "Renan Couto",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "debug": "^2.1.2",
+    "express": "^4.12.2",
+    "mocha": "^2.2.1",
+    "needle": "^0.8.1",
+    "require-directory": "^2.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^0.15.0"
+  }
+}

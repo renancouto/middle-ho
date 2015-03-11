@@ -1,0 +1,4 @@
+{
+  "foo" : "http://localhost:8010/baz",
+  "hall" : "https://hall.com/api/1/services/generic/ROOM_ID"
+}
